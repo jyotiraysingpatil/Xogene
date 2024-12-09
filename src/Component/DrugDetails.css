@@ -1,0 +1,30 @@
+.drug-details {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .drug-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .drug-details p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .drug-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .drug-details ul li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

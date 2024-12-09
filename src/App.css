@@ -1,0 +1,47 @@
+/* Add some base styles for your app */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.drug-item {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .drug-item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .drug-item {
+    flex: 1 1 100%;
+  }
+}
+
+/* Add some basic styling for the loading spinner and error message */
+.loading-spinner,
+.error-message {
+  text-align: center;
+  margin-top: 20px;
+}
